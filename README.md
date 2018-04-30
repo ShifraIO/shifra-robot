@@ -3,12 +3,16 @@ Robot Framework Suite for automated UAT.
 
 ## Requirements
  - python 2.7.#
+ 
+ For Python 3.#, the appropriate Python3 commands must be used-
+ - pip3 xxx
+ - python3 yyy
 
 ## Installation
 Run the following commands in bash\terminal to install the framework:
 
 	pip install robotframework
-	pip install robotframework-seleniumlibrary 
+	pip install robotframework-selenium2library 
 
 You may also need to install the browser drivers. 
 ChromeDriver is for Chrome and GeckoDriver is for Firefox, you don't necessarily need both so don't worry if you have issues installing one.
